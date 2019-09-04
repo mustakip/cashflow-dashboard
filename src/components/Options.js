@@ -7,7 +7,6 @@ class Options extends React.Component {
     router: PropTypes.object,
   };
 
-
   hostGame = () => {
     this.context.router.push({pathname: "/host"})
   };
@@ -19,8 +18,8 @@ class Options extends React.Component {
   render() {
     return (
       <div className="options">
-        <button onClick={this.hostGame}>Host Game</button>
-        <button onClick={this.joinGame}>Join Game</button>
+        <button className="option" onClick={this.hostGame}>Host Game</button>
+        <button className="option" onClick={this.joinGame}>Join Game</button>
       </div>
     );
   }

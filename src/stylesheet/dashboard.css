@@ -5,3 +5,47 @@
     color: #7D97A5;
     text-shadow: 1px 1px #BECBD2;
 }
+
+.dashboard {
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20%;
+    height: 40%;
+    width: 30%;
+}
+
+
+
+
+/*Options*/
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.option {
+    width:50%;
+    height: 15%;
+    margin: 5% 0;
+}
+
+
+/*HostGame*/
+
+.hosting-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+}

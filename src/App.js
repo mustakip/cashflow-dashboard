@@ -6,12 +6,9 @@ import RouteProvider from "./router/routeProvider";
 
 function App() {
   return (
-
-    <div>
       <RouterProvider>
         <Router routes={RouteProvider.routes} history={RouteProvider.history}/>
       </RouterProvider>
-    </div>
   );
 }
 

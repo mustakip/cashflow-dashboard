@@ -1,15 +1,13 @@
 import {hashHistory, Route, Router} from "react-router";
 import React from "react";
 import Homepage from "../components/Homepage";
-import HostGame from "../components/HostGame";
-import JoinGame from "../components/JoinGame";
 
 
 const routes = (
   <>
     <Route path="/" component={Homepage}/>
-    <Route path="/host" component={HostGame}/>
-    <Route path="/join" component={JoinGame}/>
+    <Route path="/host" component={Homepage}/>
+    <Route path="/join" components={Homepage}/>
   </>
 );
 
